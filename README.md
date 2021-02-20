@@ -5,6 +5,7 @@ The players take turns placing a randomly generated piece they are given onto th
 <p align="center">
     <img src="/resources/ezgif.com-crop.gif" alt="filler gif" width="363px" height="359px"/>
 </p>
+
 ## The algorithm
 
 The most important takeaway from this project was the understanding and eventual implementation of the heatmapping technique. In my project, the heatmap is basically a duplicate integer map of the gameboard, where each empty spot is represented as a number. The closer the spot is to the enemy, the smaller its value. This way each piece my player is given is placed as close to the opponent as possible while still placing one point on my player's own area.
