@@ -2,8 +2,8 @@
 
 The goal of this École42 school project was to code an AI player that would be placed on the "Filler" gameboard and battle its opponent. The Filler board is an x * y map and in the initial starting position each player is given one piece, a single 'x' or 'o' depending on the player order.  
 The players take turns placing a randomly generated piece they are given onto the gameboard so that the new piece must touch one single node of the area the player has already claimed for themselves. The player who manages to block the spreading of their opponent and succeeds at conquering the biggest area wins the battle.
-  
-<img src="/resources/ezgif.com-crop.gif" width="363px" height="359px"/>
+
+<img align="center" src="/resources/ezgif.com-crop.gif" alt="filler gif" width="363px" height="359px"/>
   
 ## The algorithm
 
